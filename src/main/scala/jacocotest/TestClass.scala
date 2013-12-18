@@ -1,6 +1,6 @@
 package jacocotest
 
-class TestClass( val x : Int )
+case class TestClass( val x : Int )
 {
 	def double() : Int = x * 2
 	
